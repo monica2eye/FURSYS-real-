@@ -1,0 +1,11 @@
+
+.container:not(:first-child) {margin-top:150px;}
+.navs {background-color:lightblue; color:black;}
+.navs > li {float: left; padding: 1rem; width:150px; text-align:center; position:relative; cursor: pointer;}
+.subs {display: none; position: absolute; background-color: lightsalmon; left: 0; color:black; padding: 0.5rem; top: 3.1rem; width:100%;}
+.subs > li {padding: 0.5rem; cursor: pointer;}
+.subs > li:hover {background-color: lightcoral; color: black;}
+
+.navs2 {background-color: lightgoldenrodyellow; color: black;}
+.navs2 > div:first-child {float:left; }
+.navs2 > ul {float:right;}
