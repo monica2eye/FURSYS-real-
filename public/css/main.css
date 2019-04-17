@@ -22,7 +22,7 @@ html, body {font-family: 'Noto Sans KR', sans-serif;}
 
 
 
-.navs > .mn_navs {display: flex; align-items: center; }
+.navs > .mn_navs {display: flex; align-items: center; margin-top: 1%; position: relative;}
 .navs > .mn_navs > li {font-size:0.85rem; font-weight: bold; text-align: center;}
 .navs > .mn_navs > li:nth-child(1) {width: 100px; }
 .navs > .mn_navs > li:nth-child(2) {width: 100px; }
@@ -30,3 +30,6 @@ html, body {font-family: 'Noto Sans KR', sans-serif;}
 .navs > .mn_navs > li:nth-child(4) {width: 110px;}
 .navs > .mn_navs > li:nth-child(5) {width: 110px;}
 .navs > .mn_navs > li:nth-child(6) {width: 105px;}
+
+.sm_navs {display: flex; color: #555555; font-size: 0.75rem; position: absolute; transform: translate(633%,80%);}
+.sm_navs > span {padding: 0 0.5rem; }
