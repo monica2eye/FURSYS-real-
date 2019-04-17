@@ -1,6 +1,7 @@
 {
   "projects": {
     "default": "minjeong-pulmuone",
-    "minjeong-pulmuone": "minjeong-pulmuone"
+    "minjeong-pulmuone": "minjeong-pulmuone",
+    "minjeong-pulmouone": "minjeong-pulmuone"
   }
 }
